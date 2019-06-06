@@ -1,0 +1,89 @@
+
+
+/******** global settings ********/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
+*{margin:0;}
+body{ font-size:16px; font-family:'Open Sans', sans-serif;}
+h1{ font-size:2.5em;}
+h2{ font-size:2em; font-weight:300;}
+h3{ font-size:1.5em; font-weight:300;}
+h4{ font-size:1.2em;}
+p{ font-size:1em;}
+a{ text-decoration:none;}
+
+.clearfix{ clear:both;}
+.col{ float:left;}
+.col-2{ width:47.5%;}
+.col-3{ width:33%;}
+.col-middle{ margin: 0 5%;}
+.left{ float:left;}
+.right{ float:right;}
+.button{ display:inline-block; width:auto; padding:15px 30px; color:white; border-radius:50px; margin-top:15px;}
+.container{ width:75%; margin:0 auto;}
+
+
+
+/******** barra navegador de la web ********/
+
+nav{ background-color:#C12127; color:rgba(255,255,255,0.8); padding:15px 0;}
+nav a{ color:rgba(255,255,255,0.8);}
+.top-left{display:inline-block;}
+.heart{ margin:0 20px;}
+.top-links{ display:inline-block; float:right; padding:0; margin:0 20px 0 0;}
+.top-links li{ display:inline-block; margin:0 10px;}
+
+
+
+/******** barra navegador de la web ********/
+
+header{ background-image:url('images/city-scape.svg'); background-size:cover; background-repeat:no-repeat; background-position: center center; height:500px;}
+.hb-2{ width:calc(100% - 360px); height:60px; display:inline-block;}
+.hb-2 input, .hb-2 button{ margin:10px 0; float:left; background-color:rgb(31, 82, 111); color:white;}
+.hb-2 input{ height:35px; width:calc(100% - 57px); border:1px solid rgb(71, 143, 179); padding:0 10px; font-size:1em;}
+.hb-2 button{ height:37px;  width:35px; border:1px solid rgb(71, 143, 179); border-left:0 !important;}
+.hb-3 li, .hb-3 a{ color:white;}
+.hb-3 li:first-child{ padding:15px 0;}
+.hb-3 li:nth-child(2){ padding:10px 0 10px; margin:0 10px 0 0 !important;}
+.logo{ width:100px; margin:10px 20px 5px;}
+.bear{ width:37px;}
+
+.info{color:white;}
+.info h2{ margin:20px 0;}
+.info ul{margin:0 0 20px 20px;}
+.info ul li, .info p{ padding:10px 0;}
+header .info{ padding:30px 0 70px;}
+header .button{ background-color:rgb(240, 146, 51);}
+
+
+
+/******** section: collaboration ********/
+
+#collaboration{ background:rgb(39, 53, 71);}
+#collaboration .container{ padding:100px 0;}
+#collaboration .button{background-color:rgb(203, 56, 55);}
+.button-2{ color:rgb(255, 255, 255); font-weight:700;}
+
+
+
+/******** section: what is npm? ********/
+
+#what-is, #what-is-2{ background-image:url('images/forklift.svg'); background-size:cover; background-repeat:no-repeat; background-position:center left; height:500px;}
+#what-is .container{ padding:70px 0;}
+#what-is-2{position:relative;}
+#what-is-2 .info{position:absolute; margin:70px 0 70px 12.5%; width:37.5%;}
+#what-is .button, #what-is-2 .button{ background-color:rgb(49, 68, 88);}
+
+
+
+/******** section: what can you make...? ********/
+
+#can-make{ background-color: white;}
+#can-make .container{ padding:70px 0 150px;}
+.info-2, #can-make article{ text-align:center;}
+.info-2 h3{ color:rgb(83, 88, 98);}
+#can-make article div{padding:0 15%;}
+.info-2 p{ padding:20px 0;}
+#can-make h4{ padding:10px 0;}
+#can-make p{color:rgb(135, 145, 156);}
+.detail{ color:rgb(208, 74, 73);}
